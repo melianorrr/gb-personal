@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milada Gudkova</title>
+
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Бутстрап -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Хедер -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light header center">
+            <div class="container-fluid">
+                <a class="header_logo" href="">MG</a>
+                <button class="navbar-toggler header_logo" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="header_link_lightpink" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header_link_yellow" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header_link_lightpink" href="#projects">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header_link_pink" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Главная -->
+        <section class="main center">
+            <div class="block">
+                <div class="main_content_01 center">
+                    <h1 class="main_h1_pink">Milada</h1>
+                    <p class="main_h1_yellow">Gudkova</p>
+                </div>
+                <div class="main_content_02 center">
+                    <h2 class="main_h2_yellow">Fullstack</h2>
+                    <h2 class="main_h2_green">Designer</h2>
+                </div>
+            </div>
+            <div class="main_content center">
+                <h1 class="main_h1_pink">Milada</h1>
+                <p class="main_h1_yellow">Gudkova</p>
+            </div>
+            <div class="main_content_2 center">
+                <h2 class="main_h2_yellow">Fullstack</h2>
+                <h2 class="main_h2_green">Designer</h2>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section class="about center" id="about">
+            <h2 class="heading_yellow">About me</h2>
+            <div class="about_content">
+                <div class="about_text">
+                    <p>My name is Milada, I am a web and UX/UI designer from St.Petersburg with solid background in IT
+                        sphere as an IT recruiter for the foreign companies.
+                    </p>
+                    <p>I'm experienced with all the crucial designer tools and techs including Adobe Photoshop,
+                        Illustrator, InDesign, Figma, Canva, Tilda and After Effect. Besides, I have basic knowledge of
+                        HTML,
+                        CSS and JS and plan to dive deeper into Frontend technologies in the nearest future.
+                    </p>
+                </div>
+                <img class="milada" src="img/me.png" alt="me">
+            </div>
+        </section>
+
+        <!-- Навыки -->
+        <section class="skills center" id="skills">
+            <h2 class="heading_green">My Skills</h2>
+            <div class="skills_content">
+                <img class="skills_img" src="img/indesign.svg" alt="indesign">
+                <img class="skills_img" src="img/illustrator.svg" alt="illustrator">
+                <img class="skills_img" src="img/photoshop.svg" alt="photoshop">
+                <img class="skills_img_figma" src="img/figma.svg" alt="figma">
+            </div>
+        </section>
+
+        <!-- Работы -->
+        <section class="projects center" id="projects">
+            <h2 class="heading_pink">My Projects</h2>
+            <div class="projects_slider">
+                <!-- Слайдер -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/work1.jpg" class="d-block w-100" alt="Project 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/work2.jpg" class="d-block w-100" alt="Project 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/work3.jpg" class="d-block w-100" alt="Project 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts center" id="contacts">
+            <h2 class="heading_green_2">Contacts</h2>
+            <div class="contacts_info">
+                <a class="contacts_link_pink" href="mailto:melianorrr@gmail.com">melianorrr@gmail.com</a>
+                <a class="contacts_link_green" href="tel:+7909000000">+7909000000</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="footer center">
+            <a class="footer_link" href="https://www.behance.net/miladaleonova">
+                <img class="footer_link_img" src="img/behance.svg" alt="behance">
+            </a>
+            <a class="footer_link" href="https://www.instagram.com/miladaleonova/">
+                <img class="footer_link_img" src="img/instagram.svg" alt="instagram">
+            </a>
+            <a class="footer_link" href="https://vk.com/melianor">
+                <img class="footer_link_img" src="img/vk.svg" alt="vk">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

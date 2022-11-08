@@ -1,0 +1,827 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.center {
+    padding-left: calc(50% - 1400px / 2);
+    padding-right: calc(50% - 1400px / 2);
+}
+
+/* Хедер */
+.header {
+    background: #125B50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 113px;
+}
+
+.header_menu {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header_logo {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    text-align: center;
+    /* yellow */
+    color: #F8B400;
+    text-decoration: none;
+}
+
+.header_logo:hover {
+    text-decoration: underline;
+    color: #F8B400;
+}
+
+.header_link_lightpink {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    text-align: center;
+    /* light_pink */
+    color: #F7E8B7;
+    text-decoration: none;
+}
+
+.header_link_lightpink:hover {
+    text-decoration: underline;
+    color: #F7E8B7;
+}
+
+.header_link_yellow {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    text-align: center;
+    /* yellow */
+    color: #F8B400;
+    text-decoration: none;
+}
+
+.header_link_yellow:hover {
+    text-decoration: underline;
+    color: #F8B400;
+}
+
+.header_link_pink {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    text-align: center;
+    /* pink */
+    color: #FF6363;
+    text-decoration: none;
+}
+
+.header_link_pink:hover {
+    text-decoration: underline;
+    color: #FF6363;
+}
+
+/* Главная */
+.main {
+    background: #F7E8B7;
+    background-image: url(img/main.svg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    min-height: 1024px;
+    padding: 53px;
+}
+
+.block {
+    min-height: 133px;
+    min: width 375px;
+    display: none;
+}
+
+.main_content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 803px;
+    flex-wrap: nowrap;
+}
+
+.main_content_2 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 803px;
+    margin-top: -42px;
+    flex-wrap: nowrap;
+}
+
+.main_h1_pink {
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 226px;
+    /* identical to box height */
+    /* pink */
+    color: #FF6363;
+    display: inline;
+}
+
+.main_h1_yellow {
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 226px;
+    /* identical to box height */
+    /* yellow */
+    color: #F8B400;
+    display: inline;
+}
+
+.main_h2_yellow {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 138px;
+    /* identical to box height */
+    /* yellow */
+    color: #F8B400;
+    display: inline;
+}
+
+.main_h2_green {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 138px;
+    /* identical to box height */
+    /* green */
+    color: #125B50;
+    display: inline;
+}
+
+/* Обо мне */
+.heading_yellow {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+    /* yellow */
+    color: #F8B400;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 58px;
+    margin-bottom: 83px;
+    flex-wrap: wrap;
+}
+
+.about_text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    /* green */
+    color: #125B50;
+    max-width: 616px;
+}
+
+.about_text p {
+    margin-bottom: 30px;
+}
+
+/* Навыки */
+.skills {
+    background: #F7E8B7;
+}
+
+.heading_green {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+    /* green */
+    color: #125B50;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.skills {
+    min-height: 513px;
+}
+
+.skills_content {
+    margin-top: 98px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-around;
+    gap: 132px;
+    flex-wrap: wrap;
+}
+
+.skills_img {
+    width: 160px;
+    height: 160px;
+    left: 181px;
+    top: 2349px;
+}
+
+.skills_img_figma {
+    width: 160px;
+    height: 160px;
+    left: 1081px;
+    top: 2349px;
+}
+
+/* Работы */
+.heading_pink {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+    /* pink */
+    color: #FF6363;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.projects_img {
+    width: 879px;
+    height: 648px;
+    left: 281px;
+    top: 2881px;
+}
+
+/* Контакты */
+.contacts {
+    background: #F7E8B7;
+    min-height: 551px;
+    margin-top: 50px;
+}
+
+.heading_green_2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+    /* green */
+    color: #125B50;
+    text-align: center;
+    padding-top: 53px;
+}
+
+.contacts_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts_link_pink {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    /* pink */
+    color: #FF6363;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.contacts_link_pink:hover {
+    text-decoration: underline;
+    color: #FF6363;
+}
+
+.contacts_link_green {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+    /* identical to box height */
+    /* green */
+    color: #125B50;
+    text-decoration: none;
+}
+
+.contacts_link_green:hover {
+    text-decoration: underline;
+    color: #125B50;
+}
+
+/* Футер */
+.footer {
+    background: #125B50;
+    min-height: 161px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 121px;
+}
+
+.footer_link {
+    width: 115px;
+    height: 131px;
+    left: 426px;
+    top: 4249px;
+}
+
+/* Бутстрап */
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow_left.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow_right.svg);
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FF6363;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.bg-light {
+    background-color: #125B50 !important;
+}
+
+.navbar-nav {
+    gap: 21px;
+}
+
+/* Стили для планшета*/
+@media (max-width: 1439px) {
+    .center {
+        padding-left: calc(50% - 748px / 2);
+        padding-right: calc(50% - 748px / 2);
+    }
+
+    .header {
+        background: #125B50;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 74px;
+        gap: 142px;
+    }
+
+    .header_menu {
+        align-items: center;
+        /* flex-wrap: nowrap; */
+        flex-direction: row;
+        display: inline-flex;
+        gap: 21px;
+    }
+
+    .header_logo {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        text-align: center;
+        color: #F8B400;
+        text-decoration: none;
+    }
+
+    .header_link_lightpink {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        /* identical to box height */
+        text-align: center;
+        /* light_pink */
+        color: #F7E8B7;
+        text-decoration: none;
+    }
+
+    .header_link_yellow {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        /* identical to box height */
+        text-align: center;
+        /* yellow */
+        color: #F8B400;
+        text-decoration: none;
+    }
+
+    .header_link_pink {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        /* identical to box height */
+        text-align: center;
+        /* pink */
+        color: #FF6363;
+        text-decoration: none;
+    }
+
+    .main {
+        background: #F7E8B7;
+        background-image: url(img/main.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: top;
+        background-position-x: center;
+        max-width: 1439px;
+        min-height: 546px;
+        padding: 20px;
+    }
+
+    .main_content {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 803px;
+        flex-wrap: wrap;
+    }
+
+    .main_content_2 {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 803px;
+        margin-top: -13px;
+        flex-wrap: wrap;
+    }
+
+    .main_h1_pink {
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 113px;
+        /* identical to box height */
+        /* pink */
+        color: #FF6363;
+        display: inline;
+    }
+
+    .main_h1_yellow {
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 113px;
+        /* identical to box height */
+        /* yellow */
+        color: #F8B400;
+        display: inline;
+    }
+
+    .main_h2_yellow {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 69px;
+        /* identical to box height */
+        /* yellow */
+        color: #F8B400;
+        display: inline;
+    }
+
+    .main_h2_green {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 69px;
+        /* identical to box height */
+        /* green */
+        color: #125B50;
+        display: inline;
+    }
+
+    .about_content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 58px;
+        margin-bottom: 83px;
+        gap: 53px;
+        flex-wrap: wrap;
+    }
+
+    .skills {
+        min-height: 430px;
+        padding-top: 30px;
+    }
+
+    .heading_green {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 188px;
+        color: #125B50;
+        text-align: center;
+    }
+
+    .skills_content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 83px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .skills_img {
+        width: 100px;
+        height: 100px;
+        left: 181px;
+        top: 2349px;
+    }
+
+    .skills_img_figma {
+        width: 100px;
+        height: 100px;
+        left: 1081px;
+        top: 2349px;
+    }
+
+    .heading_pink {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 188px;
+        /* identical to box height */
+        /* pink */
+        color: #FF6363;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .heading_yellow {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 188px;
+        /* identical to box height */
+        /* yellow */
+        color: #F8B400;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .heading_green_2 {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 188px;
+        /* identical to box height */
+        /* green */
+        color: #125B50;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+/* Стили для мобилок*/
+@media (max-width: 767px) {
+    .center {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        background: #125B50;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 113px;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .header_logo {
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 113px;
+        text-align: center;
+        color: #F8B400;
+        text-decoration: none;
+    }
+
+    .main {
+        background: #F7E8B7;
+        background-image: url(img/main_mob.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: top;
+        background-position-x: center;
+        min-height: 697px;
+    }
+
+    .block {
+        min-height: 133px;
+        background: #125B50;
+        display: flex;
+        margin-top: 254px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_content_01 {
+        display: flex;
+        gap: 10px;
+        max-width: 767px;
+    }
+
+    .main_content_02 {
+        display: flex;
+        gap: 10px;
+        margin-top: -10px;
+    }
+
+    .main_content {
+        display: none
+    }
+
+    .main_content_2 {
+        display: none;
+    }
+
+    .main_h1_pink {
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 75px;
+        color: #FF6363;
+        display: inline;
+    }
+
+    .main_h1_yellow {
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 75px;
+        color: #F8B400;
+        display: inline;
+    }
+
+    .main_h2_yellow {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 46px;
+        color: #F8B400;
+        display: inline;
+    }
+
+    .main_h2_green {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 46px;
+        color: #F7E8B7;
+        display: inline;
+    }
+
+    .heading_yellow {
+        font-size: 70px;
+        line-height: 125px;
+    }
+
+    .about_content {
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 83px;
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+
+    .about_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .heading_pink {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 125px;
+        color: #FF6363;
+        text-align: center;
+    }
+
+    .heading_green {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 125px;
+        text-align: center;
+    }
+
+    .heading_green_2 {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 125px;
+        text-align: center;
+    }
+
+    .skills {
+        min-height: 200px;
+        padding-top: 0px;
+    }
+
+    .skills_content {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .skills_img {
+        width: 40px;
+        height: 40px;
+        left: 181px;
+        top: 2349px;
+    }
+
+    .skills_img_figma {
+        width: 40px;
+        height: 40px;
+        left: 1081px;
+        top: 2349px;
+    }
+
+    .projects_img {
+        width: 375px;
+        height: 276px;
+        left: 0px;
+        top: 2459px;
+    }
+
+    .contacts {
+        background: #F7E8B7;
+        min-height: 360px;
+    }
+
+    .contacts_link_pink {
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 65px;
+        color: #FF6363;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    .contacts_link_green {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68px;
+        color: #125B50;
+        text-decoration: none;
+    }
+
+    .footer {
+        background: #125B50;
+        min-height: 50px;
+        gap: 50px;
+    }
+
+    .footer_link {
+        width: 40px;
+        height: 40px;
+    }
+}
